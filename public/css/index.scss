@@ -34,6 +34,11 @@ header {
     justify-content: space-between;
     font-family: 'Fira Code', monospace;
 
+    :target{
+      background-color: $page-color;
+      border-left: 2px solid rgb(59, 103, 173);
+    }
+
     ul {
       list-style: none;
       border-left: 2px solid $border-color;
@@ -44,6 +49,8 @@ header {
       li a:hover {
         background-color: $hover-color;
       }
+
+
     }
 
     .menu-main {
