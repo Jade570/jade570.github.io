@@ -1,7 +1,9 @@
 *.mp4
+*.png
+*.jpg
+*.ai
+*.pdf
+*.psd
 
-!index.html
 !index.png
 !index.jpg
-/works
-
