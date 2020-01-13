@@ -4,6 +4,7 @@
 *.ai
 *.pdf
 *.psd
+*.docx
 
 !index.png
 !index.jpg
