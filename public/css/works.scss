@@ -3,6 +3,8 @@ $hover-color: rgba(17, 17, 17, 0.7);
 $border-color: rgba(128, 128, 128, 0.3);
 $page-color: #282c34;
 $font-color: #abb2bf;
+@import url('https://fonts.googleapis.com/css?family=Fira+Code|Libre+Barcode+128+Text&display=swap');
+
 
 section {
   padding-top: 50px;
@@ -18,11 +20,11 @@ section {
   
 div.gallery {
   margin: 5px;
-  border: 1px solid #ccc;
+  border: 1px solid $border-color;
   float: left;
 
   :hover{
-  border: 1px solid #fff;  
+  color: white;
   }
   
   img {
@@ -38,6 +40,8 @@ div.gallery {
     width: 220px;
     height: 220px;
     text-align: center;
+    font-family: 'Fira Code', monospace;
+    font-size: 15px;
     :hover{
     border: none;  
     }
