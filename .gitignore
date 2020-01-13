@@ -1,1 +1,6 @@
 *.mp4
+
+/works
+!index.html
+!index.png
+!index.jpg
