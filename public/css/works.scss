@@ -7,16 +7,17 @@ $font-color: #abb2bf;
 
 
 section {
+  display: flex;
   padding-top: 50px;
   padding-left: 20px;
   padding-right: 20px;
+  justify-content: center;
 }
 
 
 .container{
   display: flex;
   flex-flow: row wrap;
-  align-content: space-between;
   
 div.gallery {
   margin: 5px;
