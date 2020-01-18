@@ -68,12 +68,63 @@ div.gallery {
 
 @media only screen and (max-width: 1100px) {
   
+  .mainwork{
+  display:flex;
+    justify-content: center;
+
+  }
+
+
+
   section {
     display: flex;
     padding-top: 50px;
     padding-left: 20px;
     padding-right: 20px;
     justify-content: center;
+  }
+
+
+  .container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center;
+
+  div.gallery {
+    margin: 5px;
+    border: 1px solid $border-color;
+    float: left;
+
+    :hover{
+    color: white;
+    }
+
+    img {
+      width: 220px;
+      height: 160px;
+      object-fit: cover;
+    }
+
+    a {
+      display: block;
+      color: $font-color;
+      text-decoration: none;
+      width: 220px;
+      height: 220px;
+      text-align: center;
+      font-family: 'Fira Code', monospace;
+      font-size: 15px;
+      :hover{
+      border: none;
+      }
+    }
+
+    desc {
+      width: 200px;
+      height: 100px;
+      word-wrap: break-word;
+    }
+  }
   }
 
 }
