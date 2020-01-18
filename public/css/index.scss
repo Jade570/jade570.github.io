@@ -124,7 +124,7 @@ ul, li, a{
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1080px) {
 
   header {
     display: flex;
@@ -164,10 +164,6 @@ ul, li, a{
         li a:hover {
           background-color: $hover-color;
         }
-      }
-
-      .menu-main {
-        flex-grow: 2;
       }
 
       .vcs {
