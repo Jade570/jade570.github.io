@@ -1,13 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR|Fira+Code|Libre+Barcode+128+Text&display=swap');
+
+
 * {
   box-sizing: border-box;
 }
 /* Slideshow container */
 #explainheader{
 display: flex;
-
+font-family: 'Fira Code', monospace;
   
 }
-
+h2{
+font-family: 'Fira Code', monospace;
+}
 
 #explanation{
 display: flex;
@@ -45,6 +50,9 @@ margin: 20px;
 }
 
 
+.description{
+font-family: 'Noto Sans KR', sans-serif;  
+}
 /* Next & previous buttons */
 .next,
 .prev {
