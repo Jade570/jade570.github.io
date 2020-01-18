@@ -122,3 +122,78 @@ ul, li, a{
     }
   }
 }
+
+
+@media only screen and (max-width: 600px) {
+
+  header {
+    display: flex;
+    flex-flow: nowrap;
+    width: 100%;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+    a {
+      display: block;
+      padding: 10px;
+      margin: 0;
+      text-decoration: none;
+      color: $font-color;
+    }
+
+    nav {
+      background-color: $navbar-color;
+      display: flex;
+      flex-flow: nowrap;
+      justify-content: space-between;
+      font-family: 'Fira Code', monospace;
+
+      :target {
+        background-color: $page-color;
+        border-left: 2px solid rgb(59, 103, 173);
+      }
+
+      ul {
+        list-style: none;
+        border-left: 2px solid $border-color;
+        display: flex;
+        padding: 0;
+        margin: 0;
+
+        li a:hover {
+          background-color: $hover-color;
+        }
+      }
+
+      .menu-main {
+        flex-grow: 2;
+      }
+
+      .vcs {
+        flex-grow: 0;
+        justify-content: flex-end;
+
+        a {
+          color: violet;
+        }
+        a:hover{
+            background-color:#f7f0eb;  
+        }
+      }
+    }
+
+    h2 {
+      margin: 0;
+  font-family: 'Noto Sans KR', sans-serif; 
+      font-size: 28px;
+      background-color: rgba(0,0,0,0);
+
+      a {
+        padding: 2px 20px;
+        color: white;
+      }
+    }
+  }
+
+}
