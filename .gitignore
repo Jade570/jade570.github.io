@@ -5,6 +5,8 @@
 *.pdf
 *.psd
 *.docx
+ignore/
 
 !index.png
 !index.jpg
+!index2.png
