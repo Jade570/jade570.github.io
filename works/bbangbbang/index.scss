@@ -136,6 +136,11 @@ left: 0;
   #explanation{
   display: flex;
   justify-content: top;  
-    flex-flow: wrap;  
+    flex-flow: column;  
   }
+  #explanheader{
+  display: flex;
+  justify-content: top;  
+    flex-flow: column;  
+  }  
 }
