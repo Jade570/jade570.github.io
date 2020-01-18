@@ -82,6 +82,17 @@ header {
   }
 }
 
+article{
+  h2, p{
+    font-family: 'Noto Sans KR', sans-serif;  
+  }
+}
+section{
+ul, li, a{
+  font-family: 'Noto Sans KR', sans-serif;    
+}  
+}
+
 .main {
   scroll-snap-type: y mandatory;
   scroll-padding: 50%;
