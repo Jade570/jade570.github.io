@@ -8,6 +8,7 @@ $font-color: #abb2bf;
 body {
   background-color: $page-color;
   color: $font-color;
+  font-family: 'Noto Sans KR', sans-serif;  
 }
 
 header {
@@ -61,6 +62,9 @@ header {
 
       a {
         color: violet;
+      }
+      a:hover{
+          background-color:#f7f0eb;  
       }
     }
   }

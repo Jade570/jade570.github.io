@@ -3,22 +3,23 @@ $hover-color: #111;
 $border-color: #888;
 $page-color: #282c34;
 $font-color: #abb2bf;
-@import url('https://fonts.googleapis.com/css?family=Fira+Code|Libre+Barcode+128+Text&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR|Fira+Code|Libre+Barcode+128+Text&display=swap');
 
 
 section {
   padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
-    
+    font-family: 'Noto Sans KR', sans-serif;  
   ul{  
     list-style: none;
     padding: 20px;
     margin: 0;  
-
+font-family: 'Noto Sans KR', sans-serif;  
   }
   
   a  {
+    font-family: 'Noto Sans KR', sans-serif;  
     color: $font-color;
     text-decoration: none;
   }  

@@ -1,13 +1,15 @@
-$navbar-color: rgba(30, 30, 30, 0.7);
-$hover-color: rgba(17, 17, 17, 0.7);
+$navbar-color: rgba(70, 70, 70, 0.3);
+$hover-color: rgba(160, 160, 160, 0.7);
 $border-color: rgba(128, 128, 128, 0.3);
-$page-color: #282c34;
-$font-color: #abb2bf;
-@import url('https://fonts.googleapis.com/css?family=Fira+Code|Libre+Barcode+128+Text&display=swap');
+$page-color: #f7f0eb;
+$font-color: #34407b;
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR|Fira+Code|Libre+Barcode+128+Text&display=swap');
 
 body {
   background-color: $page-color;
   color: $font-color;
+  font-family: 'Noto Sans KR', sans-serif;  
 }
 
 header {
@@ -59,4 +61,22 @@ aside {
       }
     }
   }
+}
+
+section{
+
+ul {
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+
+  li {
+    padding: 5px;
+
+    a {
+      text-decoration: none; 
+      color: $font-color;
+    }
+  }
+}
 }
