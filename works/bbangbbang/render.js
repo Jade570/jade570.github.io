@@ -1,7 +1,7 @@
 var i;
 
   $('#contents').append('<img src="index.png"></img>')
-  $('#dot').append('<span class="dot" onclick="currentSlide('+i+')"></span>')
+  $('#dot').append('<span class="dot" onclick="currentSlide(0)"></span>')
 
 for (i = 1; i<=3; i++){
   $('#contents').append('<img src="'+i+'.png"></img>')
@@ -9,7 +9,7 @@ for (i = 1; i<=3; i++){
 }
 
 
-var slideIndex = 1;
+var slideIndex = 0;
 showSlides(slideIndex);
 
 // Next/previous controls
@@ -21,19 +21,19 @@ function plusSlides(n) {
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
-
+  var slides = document.getElementsByTagName("img");
 function showSlides(n) {
   var i;
   var slides = document.getElementsByTagName("img");
   var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
+  if (n > slides.length-1) {slideIndex = 0}
+  if (n < 0) {slideIndex = slides.length-1}
   for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
+  slides[slideIndex].style.display = "block";
+  dots[slideIndex].className += " active";
 } 

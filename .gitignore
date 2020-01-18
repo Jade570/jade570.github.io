@@ -1,12 +1,3 @@
-*.mp4
-*.png
-*.jpg
-*.ai
-*.pdf
-*.psd
-*.docx
-ignore/
 
-!index.png
-!index.jpg
-!index2.png
+ignore/
+*.mp4
