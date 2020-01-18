@@ -6,19 +6,28 @@ $font-color: #abb2bf;
 @import url('https://fonts.googleapis.com/css?family=Fira+Code|Libre+Barcode+128+Text&display=swap');
 
 
+.mainwork{
+display:flex;
+  justify-content: center;
+
+}
+
+
+
 section {
   display: flex;
   padding-top: 50px;
   padding-left: 20px;
   padding-right: 20px;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 
 .container{
   display: flex;
   flex-flow: row wrap;
-  
+  justify-content:flex-start;
+
 div.gallery {
   margin: 5px;
   border: 1px solid $border-color;
@@ -27,13 +36,13 @@ div.gallery {
   :hover{
   color: white;
   }
-  
+
   img {
     width: 220px;
     height: 160px;
     object-fit: cover;
   }
-  
+
   a {
     display: block;
     color: $font-color;
@@ -44,7 +53,7 @@ div.gallery {
     font-family: 'Fira Code', monospace;
     font-size: 15px;
     :hover{
-    border: none;  
+    border: none;
     }
   }
 
